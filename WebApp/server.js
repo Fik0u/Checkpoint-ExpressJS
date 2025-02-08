@@ -8,7 +8,7 @@ app.set("view engine", "ejs")
 app.use(express.static('public'))
 
 const checkin = require("./middlewares/checkin.js")
-app.use(checkin)
+// app.use(checkin)
 
 
 app.get("/accueil", (req, res) => {
